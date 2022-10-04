@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Chatbot</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="chatbot-interface">
+      <div class="bot-face">
+        <img
+          class="gamebot-img"
+          src="Game Bot Logo.webp"
+          alt="A Robot holding a controller"
+        />
+      </div>
+
+      <div class="chat-container">
+        <form id="chat-form" class="chat-form">
+          <input
+            id="chat-input"
+            class="chat-input"
+            type="text"
+            placeholder="I need some comms here ..."
+            autocomplete="off"
+          />
+          <button class="btn-chat-send" type="submit">🎮</button>
+        </form>
+      </div>
+
+      <div class="chatbox-container">
+        <div id="chatbox" class="chatbox">
+          <div class="chat-item chat-item-bot">
+            What's up Noob! Welcome to the Game Bot! Please enter your Gamer
+            Tag?
+          </div>
+        </div>
+      </div>
+      <div class="helpbox-container">
+        <div id="helpbox" class="helpbox">
+          <div class="chat-item chat-item-bot">
+            Hey! Use me as your help guide to this Game Bot! <br />
+            <p>
+              <strong>"restart"</strong> = This will allow you to do a clean
+              slate reset!
+            </p>
+            <p>
+              <strong>"*"</strong> = Anything that's between this asterisk is
+              the hint for correct input for the question
+            </p>
+            <p>
+              <strong>"joke"</strong> = Some say I'm a comedian at times, type
+              joke and see what happens!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/index.js" type="module"></script>
+  </body>
+</html>
